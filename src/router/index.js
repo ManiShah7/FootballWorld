@@ -4,6 +4,7 @@ import AboutView from '../views/AboutView.vue'
 import StandingsView from '../views/StandingsView.vue'
 import FixturesView from '../views/FixturesView.vue'
 import TopScorersView from '../views/TopScorersView.vue'
+import PlayerView from "../views/PlayerView.vue";
 
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
@@ -32,6 +33,12 @@ const router = createRouter({
             path: '/top-scorers',
             name: 'top-scorers',
             component: TopScorersView
+        },
+        {
+            path: '/player/:id',
+            name: 'player',
+            component: PlayerView,
+            props: true
         }
     ]
 })

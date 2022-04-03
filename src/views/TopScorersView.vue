@@ -18,8 +18,8 @@
 
         <div v-if="topScorersArray">
           <div class="top-scorer-row" v-for="topScorer in topScorersArray.response">
-            <TopScorer :name=topScorer.player.name :image=topScorer.player.photo
-                       :goals=topScorer.statistics[0].goals.total />
+            <TopScorer :name="topScorer.player.name" :playerId="topScorer.player.id" :image="topScorer.player.photo"
+                       :goals="topScorer.statistics[0].goals.total" />
           </div>
         </div>
       </div>

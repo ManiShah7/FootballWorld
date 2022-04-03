@@ -19,6 +19,8 @@
     --vt-c-text-light-2: rgba(60, 60, 60, 0.66);
     --vt-c-text-dark-1: var(--vt-c-white);
     --vt-c-text-dark-2: rgba(235, 235, 235, 0.64);
+
+    --main-green: hsl(160deg 100% 17%)
 }
 
 /* semantic color variables for this project */
@@ -98,7 +100,7 @@ h2, .h2 {
 }
 
 .h3 {
-    font-size: 1.25rem;
+    font-size: 1rem;
 }
 
 .page {
@@ -141,6 +143,21 @@ select {
     margin-bottom: 3rem;
 }
 
+.btn-primary {
+    background-color: var(--main-green);
+    display: inline-block;
+    padding: .5rem .75rem;
+    color: black;
+    font-weight: 700;
+    border: 1px solid var(--main-green);
+    transition: 250ms all ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: black;
+    color: var(--main-green);
+}
+
 .text-white {
     color: white;
 }
@@ -162,7 +179,7 @@ select {
 }
 
 .top-scorer-row__col {
-    width: 33.33%;
+    width: 25%;
 }
 
 @media (min-width: 768px) {
