@@ -27,3 +27,8 @@ npm run dev
 ```sh
 npm run build
 ```
+
+### To do
+
+1- Add standings
+2- Add fixtures
