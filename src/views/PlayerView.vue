@@ -4,12 +4,12 @@
       {{ error }}
     </div>
 
-    <div v-else-if="loading">
+    <div class="text-center" v-else-if="loading">
       <img src="../assets/images/loading.svg" alt="Loading...">
     </div>
 
     <div v-else-if="playerStatistics">
-      <Player :name="playerStatistics.response[0].player.name" />
+      <Player :name="playerStatistics.response[0].player.name" :age="playerStatistics.response[0].player.age" :photo="playerStatistics.response[0].player.photo" :goals="playerStatistics.response[0].statistics[0].goals.total " />
     </div>
   </div>
 </template>
