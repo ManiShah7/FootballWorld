@@ -187,3 +187,40 @@ select {
         font-size: 1.5rem;
     }
 }
+
+.standings-table {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+.standings-table th {
+    font-weight: 700;
+}
+
+.standings-table tr:nth-child(odd) {
+    background-color: gray;
+    color: black;
+}
+
+.standings-table th,
+.standings-table td {
+    padding: 5px;
+}
+
+.standings-table tr:nth-last-child(1) td:first-child::before,
+.standings-table tr:nth-last-child(2) td:first-child::before,
+.standings-table tr:nth-last-child(3) td:first-child::before {
+    content: '▼';
+    position: absolute;
+    left: 5px;
+}
+
+.standings-table tr:nth-last-child(1) td:first-child::before,
+.standings-table tr:nth-last-child(2) td:first-child::before {
+    color: red;
+}
+
+.standings-table tr:nth-last-child(3) td:first-child::before {
+    color: yellow;
+}

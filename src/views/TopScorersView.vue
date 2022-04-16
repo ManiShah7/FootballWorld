@@ -7,11 +7,12 @@
           <option value="39">Premier League</option>
           <option value="61">Ligue 1</option>
           <option value="78">Bundesliga</option>
-          <option value="135">Seria A</option>
+          <option value="135">Serie A</option>
           <option value="140">La Liga</option>
         </select>
 
         <div v-if="error">Something went wrong. Try again later.</div>
+
         <div v-if="loading">
           <img src="../assets/images/loading.svg" alt="Loading...">
         </div>
