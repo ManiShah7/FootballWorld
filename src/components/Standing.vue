@@ -2,7 +2,7 @@
   <div class="mw-1200">
     <div v-if="standing.standings">
       <div style="overflow-x:auto;">
-        <table class="standings-table text-white">
+        <table class="standings-table text-white mt-1">
           <tr>
             <th>Club</th>
             <th>Played</th>

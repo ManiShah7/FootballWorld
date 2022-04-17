@@ -2,7 +2,7 @@ import {createRouter, createWebHistory} from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import AboutView from '../views/AboutView.vue'
 import StandingsView from '../views/StandingsView.vue'
-import FixturesView from '../views/FixturesView.vue'
+// import FixturesView from '../views/FixturesView.vue'
 import TopScorersView from '../views/TopScorersView.vue'
 import PlayerView from "../views/PlayerView.vue";
 
@@ -24,11 +24,11 @@ const router = createRouter({
             name: 'standings',
             component: StandingsView
         },
-        {
-            path: '/fixtures',
-            name: 'fixtures',
-            component: FixturesView
-        },
+        // {
+        //     path: '/fixtures',
+        //     name: 'fixtures',
+        //     component: FixturesView
+        // },
         {
             path: '/top-scorers',
             name: 'top-scorers',

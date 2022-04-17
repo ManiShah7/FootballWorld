@@ -30,6 +30,6 @@ npm run build
 
 ### To do
 
-1- Add standings
+1- Add fixtures
 
-2- Add fixtures
+2- Maybe PWA

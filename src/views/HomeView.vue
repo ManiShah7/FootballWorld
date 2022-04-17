@@ -20,12 +20,12 @@ export default {
         image: '../src/assets/images/standings.jpg',
         title: 'STANDINGS'
       },
-      {
-        id: 2,
-        slug: 'fixtures',
-        image: '../src/assets/images/fixtures.jpg',
-        title: 'FIXTURES'
-      },
+      // {
+      //   id: 2,
+      //   slug: 'fixtures',
+      //   image: '../src/assets/images/fixtures.jpg',
+      //   title: 'FIXTURES'
+      // },
       {
         id: 3,
         slug: 'top-scorers',
@@ -46,7 +46,7 @@ export default {
 
 .links {
   position: relative;
-  height: 350px;
+  height: 50vh;
   padding: 1rem;
 }
 
@@ -58,7 +58,7 @@ export default {
   }
 
   .links {
-    width: 33.33%;
+    width: 50%;
     height: 100vh;
   }
 }
